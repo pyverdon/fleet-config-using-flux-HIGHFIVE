@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/container-training-fleet/fleet-config-using-flux-HIGHFIVE
+  url: ssh://git@github.com/pyverdon/fleet-config-using-flux-HIGHFIVE
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
